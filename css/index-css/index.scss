@@ -25,7 +25,34 @@
     }
     
     .main_h1{
-        @include headerFont;
+        // @include headerFont;
     }
 
 
+    section {
+        padding: 40px 0;
+    }
+    
+   
+    #footer {
+        background: #f8f9fa !important;
+
+    }
+    
+    #footer ul.social li a i {
+        margin-right: 5px;
+        font-size:25px;
+        -webkit-transition: .5s all ease;
+        -moz-transition: .5s all ease;
+        transition: .5s all ease;
+    }
+    
+    @media (max-width:767px){
+        #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    }
+    

@@ -4,8 +4,20 @@ p {
   letter-spacing: 0.1rem;
 }
 
+h1 {
+  font-family: 'Open Sans', sans-serif !important;
+  letter-spacing: 0.5rem;
+}
+
 section {
   padding: 40px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 #footer {

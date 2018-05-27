@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="pages/pricing.html">Pricing</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <!-- <a class="nav-link" href="pages/portfolio.html">Portfolio</a> -->
                 </li>
             </ul>
         </div>
@@ -43,13 +43,13 @@
 
 
     <div class="container" id="main">
-        <h1 class="display-4 foo"> About Us.</h1>
+        <h1 class="foo"> About Us.</h1>
         <p class="foo">
             Sable is a creative collective dedicated to producing amazing websites developed with the latest web technologies and SEC
             tatics. Building a website is not as simple as it seems, in todays world it is the first impression and attention
             grabber of any business. Sable can develop beautiful, mobile freindly and truly immersive web experiences.
         </p>
-        <h1 class="display-4 foo"> Web API Integration. </h1>
+        <h1 class="foo"> Web API Integration. </h1>
 
         <p class="foo">
             We provide Integration for Google maps, Yelp Reviews , Youtube, Spotify, Soundcloud and pretty much any service running on
@@ -57,8 +57,6 @@
             go with Sable you will get the best bang for your buck .
         </p>
         <br>
-
-
     </div>
 
 
@@ -76,7 +74,7 @@
 
     <div class="container">
 
-        <h1 class="display-4 foo"> Clean Elegant Design.</h1>
+        <h1 class="foo"> Clean Elegant Design.</h1>
         <p class="foo">
             Sable is a creative collective dedicated to producing amazing websites developed with the latest web technologies and SEC
             tatics. Building a website is not as simple as it seems, in todays world it is the first impression and attention
@@ -84,13 +82,13 @@
         </p>
 
 
-        <h1 class="display-4 foo"> Mobile Design.</h1>
+        <h1 class="foo"> Mobile Design.</h1>
 
         <p class="foo">
-            Most developers do not care about mobile design and at Sable we always test on 20 devices of different sizes.
-            We provide Integration for Google maps, Yelp Reviews , Youtube, Spotify, Soundcloud and pretty much any service running on
-            the web for no additional cost. We are dedicated to helping our clients find and retain new customers. If you
-            go with Sable you will get the best bang for your buck .
+            Most developers do not care about mobile design and at Sable we always test on 20 devices of different sizes. We provide
+            Integration for Google maps, Yelp Reviews , Youtube, Spotify, Soundcloud and pretty much any service running
+            on the web for no additional cost. We are dedicated to helping our clients find and retain new customers. If
+            you go with Sable you will get the best bang for your buck .
         </p>
 
         <br>
@@ -100,7 +98,7 @@
     <div class="jumbotron jumbotron-fluid foo" style="background-image: url('assets/blue.jpg'); object-fit:scale-down;">
         <div class="container text-white">
             <h1 class="display-3">Virtuoso</h1>
-            <p class="lead" style="word-spacing: 1rem;">	Expert Professional  Maestro  Ace.</p>
+            <p class="lead" style="word-spacing: 1rem;"> Expert Professional Maestro Ace.</p>
         </div>
 
 
@@ -111,30 +109,54 @@
 
     <div class="container">
 
-        <h1 class="display-4 foo">Team Workflow</h1>
+        <h1 class="foo">Team Workflow</h1>
         <p class="foo">
-            Sable partners are friendly, clean cut, honest and always willing to work with clients needs and wants.
-            A Sable Man is a team player and an MVP all rolled up into one.
+            Sable partners are friendly, clean cut, honest and always willing to work with clients needs and wants. A Sable Man is a
+            team player and an MVP all rolled up into one.
         </p>
 
 
-        <h1 class="display-4 foo"> Content Producers </h1>
+        <h1 class="foo"> Content Producers </h1>
 
         <p class="foo">
-          We provide content production services for your company for a small fee.
-          Sable can provide text, images, music and videos a massive advantage and edge to your company.
-          You can always of course send us your content for use on your site.
+            We provide content production services for your company for a small fee. Sable can provide text, images, music and videos
+            a massive advantage and edge to your company. You can always of course send us your content for use on your site.
 
         </p>
 
         <br>
+
+        <div class="container foo">
+            
+                <div class="form-group">
+                    <label>
+                        Email
+                    </label>
+                    <input id="email_input" type="text" class="form-control" placeholder="example@mail.com">
+                </div>
+                <div class="form-group">
+                    <label>
+                        Message
+                    </label>
+                    <textarea id="text_input" class="form-control" rows="3"></textarea>
+                </div>
+                <button class="btn btn-dark" type="submit" id="form_input_button">Submit</button>
+            </div>
+            <br>
+
+
     </div>
+
+    <section id="footer" class="text-center text-dark">
+        <p class="h6">&copy All right Reversed. Sable Design
+        </p>
+        </hr>
+    </section>
 
 
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="src/index-page.js"></script>
 </body>
 
